@@ -1,0 +1,24 @@
+<div class="py-2 h6 rounded text-center shadow bg-white mt-5">
+  {{ city.name }}
+</div>
+
+<div class="w-100 rounded text-center mt-2 shadow bg-white">
+  <img
+    *ngIf="city.tempC < 33.5"
+    src="../../assets/cloud.png"
+    alt=""
+    width="100%"
+    height="auto"
+  />
+  <img
+    *ngIf="city.tempC >= 33.5"
+    src="../../assets/sunny.png"
+    alt=""
+    width="100%"
+    height="auto"
+  />
+</div>
+<div class="row mx-0 py-2 rounded text-center shadow bg-white mt-2">
+  <div class="col-6 text-left border-right">{{ city.tempC }} C°</div>
+  <div class="col-6 text-right">{{ city.tempF }} F°</div>
+</div>
