@@ -10,6 +10,18 @@ Data will also be cashed in localStorage in case of failure of API request, syst
 
 The "Sunny" icon will be shown for temperature >= 33.5 C° and "Sun with Cloud" icon will be shown for temperature < 33.5 C° - The icons don't show the real state of weather just used to show different icons for now -.
 
+## Prerequisites
+
+1) git --> https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2) NodeJS --> https://nodejs.org/en/download/
+3) NPM --> https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+4) Angular CLI --> https://angular.io/cli
+
+## Installation 
+
+git clone https://github.com/ssondoss/weather-task.git
+npm install
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
